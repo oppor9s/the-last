@@ -20,27 +20,8 @@
 
 	<body>
 		<div class="header">
-			<div class="hea_nav">
-				<a href="index.html"><img src="/BigHomewoke/img/logo.png" class="logo"/></a>
-				<ul>
-					<a href="index.html"><li>首页</li></a>
-					<a href="${ctx }/findproduct/findByPage?pagenum=1"><li>叮咚一下</li></a>
-					<a href="blog.html"><li>BLOG</li></a>
-					<a href="personal.html"><li>个人中心</li></a>
-					<a href="message.html"><li>留言板</li></a>
-				</ul>
-			</div>
-			<div class="hea_right">
-				<p>
-					<a href="register.html">注册</a>|<a class="login_btn">登录</a>
-				</p>
-				<a href="shop_car.html"><p>
-						<i class="iconfont">&#xe600;</i>
-						<span>0件</span>
-					</p>
-					</a>
-					
-			</div>
+		
+
 		</div>
 		<div class="header2">
 				<img src="/BigHomewoke/img/phone_meau.png" class="meau"/>

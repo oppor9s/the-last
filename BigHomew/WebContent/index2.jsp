@@ -33,8 +33,6 @@
 						<a href="${ctx }/findproduct/findByPage?pagenum=1">
 							<li>叮咚一下</li>
 						</a>
-						<a href="blog.html">
-							<li>BLOG</li>
 						</a>
 						<a href="${ctx }/adduser/usermessage">
 							<li>个人中心</li>

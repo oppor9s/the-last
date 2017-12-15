@@ -42,7 +42,7 @@ private AddUserService addUserService;
 @Resource
 private AdminLoginService adminloginservice;
 //邮箱注册
-@RequestMapping("/add1")
+@RequestMapping("/addemail")
 public String adduser1(LoginUser loginUser,HttpServletRequest request,HttpServletResponse response,HttpSession s){
 	List<LoginUser> list=addUserService.findName(loginUser.getName());
 	if(list.size()!=0){

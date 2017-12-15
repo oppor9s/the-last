@@ -18,21 +18,6 @@
 	</head>
 
 	<body>
-		<div class="header">
-
-			<div class="hea_right">
-				
-				<p>
-					<a class="login_btn">登录</a>
-				</p>
-				<a href="shop_car.html"><p>
-						<i class="iconfont">&#xe600;</i>
-						<span>0件</span>
-					</p>
-					</a>
-					
-			</div>
-		</div>
 		<div class="header2">
 				<img src="/BigHomewoke/img/phone_meau.png" class="meau"/>
 				<a href="index.html"><img src="/BigHomewoke/img/logo.png" class="logo"/></a>
@@ -89,8 +74,8 @@
 				<ul class="per_navul">
 					<li style="width: 50px;margin-left: 0px;">
 						</li>
-					<li style="width: 100px;text-align: left;">买家姓名</li>
-					<li style="width: 350px;text-align: left;">地址</li>	
+					<li style="width: 200px;text-align: left;">买家姓名</li>
+					<li style="width: 200px;text-align: left;">地址</li>	
 					
 					<li>合计</li>
 					<li style="width: 200px;text-align: left;">下单时间</li>
@@ -102,8 +87,8 @@
 					<ul class="per_listul">
 						<li style="width: 50px;margin-left: 0px;">
 						</li>
-						<li style="width: 100px;text-align: left;">${pt.userName }</li>
-						<li style="width: 350px;text-align: left;">${pt.address }</li>
+						<li style="width: 200px;text-align: left;">${pt.userName }</li>
+						<li style="width: 200px;text-align: left;">${pt.address }</li>
 						
 						<li>￥${pt.sumprice }</li>
 						<li style="width: 200px;text-align: left;">${pt.time }</li>
@@ -199,8 +184,8 @@
 			<div class="per_box" style="display: none;">
 			<ul class="per_navul">
 					
-					<li style="width: 100px;text-align: left;">买家姓名</li>
-					<li style="width: 300px;text-align: left;">收货地址</li>	
+					<li style="width: 200px;text-align: left;">买家姓名</li>
+					<li style="width: 200px;text-align: left;">收货地址</li>	
 					
 					<li style="width: 200px;text-align: left;">手机号</li>
 					<li style="width: 200px;text-align: left;">邮箱地址</li>
@@ -209,10 +194,10 @@
 			<c:forEach items="${alluser }" var="pt">							
 					<ul class="per_listul">
 						
-						<li style="width: 100px;text-align: left;">${pt.name }</li>
-						<li style="width: 300px;text-align: left;">${pt.address }</li>
+						<li style="width: 200px;text-align: left;">${pt.name }</li>
+						<li style="width: 200px;text-align: left;">${pt.address }</li>
 						
-						<li style="width: 200px;text-align: left;">￥${pt.phone }</li>
+						<li style="width: 200px;text-align: left;">${pt.phone }</li>
 						<li style="width: 200px;text-align: left;">${pt.email }</li>
 						<li style="width: 200px;text-align: center;"><a href="${ctx }/admin/deleteuser?name=${pt.name }">删除该用户</a></li>
 						<p>送货地址：${pt.address }</p>

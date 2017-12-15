@@ -96,7 +96,7 @@
 					</li>
 				</ul>
 				<div class="res_form">
-						<form action="${ctx}/adduser/add1" method="post">
+						<form action="${ctx}/adduser/addemail"  method="post">
 						<p class="res_list">
 							<span>邮箱地址</span>
 							<input type="text"  name="name" id="email" onblur="checkEmail()"/>
